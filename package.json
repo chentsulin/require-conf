@@ -1,0 +1,34 @@
+{
+  "name": "require-conf",
+  "version": "0.1.0",
+  "description": "require config file via NODE_ENV",
+  "license": "MIT",
+  "repository": "chentsulin/require-conf",
+  "author": {
+    "name": "C. T. Lin",
+    "email": "chentsulin@gmail.com",
+    "url": "https://github.com/chentsulin"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "bugs": {
+    "url": "https://github.com/chentsulin/require-conf/issues"
+  },
+  "homepage": "https://github.com/chentsulin/require-conf",
+  "keywords": [
+    "require",
+    "config",
+    "env",
+    "NODE_ENV"
+  ],
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
