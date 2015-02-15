@@ -5,7 +5,7 @@ require('chai').should();
 process.env.NODE_ENV = 'testing';
 
 var fs = require('fs');
-var loader = require('../lib/config/loader');
+var loader = require('../');
 
 describe('config.loader', function() {
 
