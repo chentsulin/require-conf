@@ -10,13 +10,15 @@
     "url": "https://github.com/chentsulin"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">= 0.10.0",
+    "iojs": ">= 1.0.0"
   },
   "files": [
     "index.js"
   ],
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test-travis": "node node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --reporter dot"
   },
   "bugs": {
     "url": "https://github.com/chentsulin/require-conf/issues"
@@ -29,8 +31,9 @@
     "NODE_ENV"
   ],
   "devDependencies": {
-    "mocha": "*",
-    "chai": "^1.10.0"
+    "chai": "^1.10.0",
+    "istanbul": "^0.3.6",
+    "mocha": "*"
   },
   "dependencies": {
     "object-assign": "^2.0.0"
