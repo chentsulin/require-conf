@@ -46,7 +46,7 @@ var loader = require('require-conf');
 var config = loader(__dirname + '/config');
 
 var appConfig = config.load('app');
-// => ./config/development.app.js
+// => ./config/app.development.js
 ```
 
 #### Directory Mode
