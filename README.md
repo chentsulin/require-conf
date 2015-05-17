@@ -3,6 +3,7 @@
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
+[![Dependency Status][david_img]][david_site]
 
 > require config file via NODE_ENV
 
@@ -85,3 +86,5 @@ MIT © [C. T. Lin](https://github.com/chentsulin)
 [travis-url]: https://travis-ci.org/chentsulin/require-conf
 [coveralls-image]: https://img.shields.io/coveralls/chentsulin/require-conf.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/r/chentsulin/require-conf
+[david_img]: https://img.shields.io/david/chentsulin/require-conf.svg
+[david_site]: https://david-dm.org/chentsulin/require-conf
